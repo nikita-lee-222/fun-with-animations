@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timer</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="header">
+        <img src="img/pomidor-logo.png" alt="pomidor-logo" class="logo-png">
+        <h1>Edu-Timer</h1>
+        <img src="img/chubz-logo.png" alt="chubz-logo" class="logo-png">
+    </header>
+
+    <div class="navi">
+        <input type="number" id="timeInput" placeholder="Set your time in min." min="1">
+
+        <button onclick= "startTimer()">Start</button>
+        <button onclick= "resetTimer()">Reset</button>
+    </navi>
+
+    <div class="main-part">
+        <div class="cup">
+            <div class="liquid" id="liquid"></div>
+        </div>
+    </div>
+        
+    <script src="script.js"></script>
+</body>
+</html>
