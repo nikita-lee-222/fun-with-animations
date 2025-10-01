@@ -20,6 +20,7 @@ Simply include the HTML, CSS, and JS files in your project and start animating
 - Orbit animation
 - Lines animation 
 - Animated toggle
+- Timer for education
 
 ## Credits
 
