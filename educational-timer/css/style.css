@@ -1,0 +1,98 @@
+        body {
+            width: 1100px;
+            font-family: Arial, sans-serif;
+            background-color: #004c5f;
+            margin: auto;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .header{
+            width: 1100px;
+            height: 50px;
+            display: flex;
+            border-radius: 5px;
+            background-color: #ccbc89;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .logo-png{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+        }
+
+        h1 {
+            margin: 0;
+            color: #292929;
+            display: inline-block;
+        }
+        
+        .navi{
+            width: 1100px;
+            margin-top: 10px;
+        }
+
+        input, button {
+            font-size: 16px;
+            padding: 8px;
+            margin: 5px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        input {
+            width: 210px;
+            text-align: center;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        
+        .main-part{
+            display: flex;
+            width: 1100px;
+            height: 500px;
+            border-radius: 5px;
+            background-color: #ccbc89;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .cup {
+            width: 300px;
+            height: 320px;
+            margin: auto;
+            border: 4px solid #333;
+            border-radius: 15px;
+            position: relative;
+            overflow: hidden;
+            background: #272727;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .liquid {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, #c50808, #c5c20c, #0ad32c);
+            position: absolute;
+            bottom: 0;
+            transition: height linear;
+        }
